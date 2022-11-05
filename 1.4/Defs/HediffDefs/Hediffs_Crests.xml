@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <HediffDef Name="AppliedCrestBase" Abstract="True">
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <description>A crest drawn on the genital region.</description>
+    </HediffDef>
+
+    <HediffDef ParentName="AppliedCrestBase">
+        <defName>AppliedCrest_Lust</defName>
+        <label>lust crest</label>
+        <description>A crest of lust, making the user require nothing but sex.</description>
+        <defaultLabelColor>(255, 105, 180)</defaultLabelColor>
+        <descriptionHyperlinks>
+            <RecipeDef>InstallCrest_Lust</RecipeDef>
+        </descriptionHyperlinks>
+        <stages>
+            <li>
+                <hungerRateFactorOffset>-5</hungerRateFactorOffset>
+                <statOffsets>
+                    <SexFrequency>250</SexFrequency>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="AppliedCrestBase">
+        <defName>AppliedCrest_Fertility</defName>
+        <label>fertility crest</label>
+        <description>A crest of fertility, making the user much more likely to get pregnant.</description>
+        <defaultLabelColor>(0, 255, 255)</defaultLabelColor>
+        <descriptionHyperlinks>
+            <RecipeDef>InstallCrest_Fertility</RecipeDef>
+        </descriptionHyperlinks>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>RJW_Fertility</capacity>
+                        <offset>3</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="AppliedCrestBase">
+        <defName>AppliedCrest_Alluring</defName>
+        <label>alluring crest</label>
+        <description>A crest of allure, making the user appear irresistible.</description>
+        <defaultLabelColor>(255, 0, 0)</defaultLabelColor>
+        <descriptionHyperlinks>
+            <RecipeDef>InstallCrest_Alluring</RecipeDef>
+        </descriptionHyperlinks>
+        <stages>
+            <li>
+                <statOffsets>
+                    <Vulnerability>10</Vulnerability>
+                    <PawnBeauty>4</PawnBeauty>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

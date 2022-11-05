@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<RecipeDef Name="InstallCrestBase" Abstract="True">
+		<workerClass>Crests.Recipe_InstallCrestBase</workerClass>
+		<anesthetize>false</anesthetize>
+		<hideBodyPartNames>true</hideBodyPartNames>
+		<jobString>Drawing crest.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkillLearnFactor>1</workSkillLearnFactor>
+		<workAmount>800</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Artistic>2</Artistic>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Dye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<appliedOnFixedBodyParts>
+			<li>Genitals</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef ParentName="InstallCrestBase">
+		<defName>InstallCrest_Lust</defName>
+		<label>draw crest of lust</label>
+		<description>Draws a crest of lust onto the genital region.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AppliedCrest_Lust</HediffDef>
+		</descriptionHyperlinks>
+		<addsHediff>AppliedCrest_Lust</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="InstallCrestBase">
+		<defName>InstallCrest_Fertility</defName>
+		<label>draw crest of fertility</label>
+		<description>Draws a crest of fertility onto the genital region.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AppliedCrest_Fertility</HediffDef>
+		</descriptionHyperlinks>
+		<addsHediff>AppliedCrest_Fertility</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="InstallCrestBase">
+		<defName>InstallCrest_Alluring</defName>
+		<label>draw crest of allure</label>
+		<description>Draws a crest of allure onto the genital region.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AppliedCrest_Alluring</HediffDef>
+		</descriptionHyperlinks>
+		<addsHediff>AppliedCrest_Alluring</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef Name="RemoveCrestBase" Abstract="True">
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<anesthetize>false</anesthetize>
+		<hideBodyPartNames>true</hideBodyPartNames>
+		<jobString>Erasing crest.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkillLearnFactor>1</workSkillLearnFactor>
+		<workAmount>200</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<appliedOnFixedBodyParts>
+			<li>Genitals</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RemoveCrestBase">
+		<defName>RemoveCrest_Lust</defName>
+		<label>erase crest of lust</label>
+		<description>Erases a crest of lust from the genital region.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AppliedCrest_Lust</HediffDef>
+		</descriptionHyperlinks>
+		<removesHediff>AppliedCrest_Lust</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RemoveCrestBase">
+		<defName>RemoveCrest_Fertility</defName>
+		<label>erase crest of fertility</label>
+		<description>Erases a crest of fertility from the genital region.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AppliedCrest_Fertility</HediffDef>
+		</descriptionHyperlinks>
+		<removesHediff>AppliedCrest_Fertility</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RemoveCrestBase">
+		<defName>RemoveCrest_Alluring</defName>
+		<label>erase crest of allure</label>
+		<description>Erases a crest of allure from the genital region.</description>
+		<descriptionHyperlinks>
+			<HediffDef>AppliedCrest_Alluring</HediffDef>
+		</descriptionHyperlinks>
+		<removesHediff>AppliedCrest_Alluring</removesHediff>
+	</RecipeDef>
+
+</Defs>

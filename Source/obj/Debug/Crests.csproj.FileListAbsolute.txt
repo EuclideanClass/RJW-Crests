@@ -1,0 +1,14 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rjw-crests\Source\Crests\bin\Debug\Crests.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rjw-crests\Source\Crests\bin\Debug\Crests.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rjw-crests\Source\Crests\obj\Debug\Crests.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rjw-crests\Source\Crests\obj\Debug\Crests.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rjw-crests\1.4\Assemblies\Crests.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rjw-crests-0.1\Source\Crests\obj\Debug\Crests.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rjw-crests-0.1\Source\Crests\obj\Debug\Crests.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rjw-crests-0.1\Source\Crests\obj\Debug\Crests.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rjw-crests-0.1\1.4\Assemblies\Crests.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rjw-crests-0.2\1.4\Assemblies\Crests.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rjw-crests-0.2\Source\Crests\obj\Debug\Crests.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rjw-crests-0.2\Source\Crests\obj\Debug\Crests.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rjw-crests-0.2\Source\Crests\obj\Debug\Crests.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\rjw-crests\Source\Crests\obj\Debug\Crests.csproj.AssemblyReference.cache
